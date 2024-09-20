@@ -18,8 +18,8 @@ import java.nio.file.Path;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 
-@AllArgsConstructor
 @Log4j2
+@AllArgsConstructor
 public class ImageEventHandler extends PdfPageEventHelper {
 
     private final Path imagePath;

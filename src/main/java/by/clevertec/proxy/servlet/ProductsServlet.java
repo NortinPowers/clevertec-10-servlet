@@ -10,8 +10,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@RequiredArgsConstructor
 @Controller
+@RequiredArgsConstructor
 public class ProductsServlet extends HttpServlet {
 
     private final ProductHelper productHelper;

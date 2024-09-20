@@ -16,8 +16,8 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
 
-@Component
 @Aspect
+@Component
 @RequiredArgsConstructor
 public class CacheableAspect {
 
